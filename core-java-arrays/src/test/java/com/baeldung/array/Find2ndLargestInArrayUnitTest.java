@@ -11,6 +11,6 @@ public class Find2ndLargestInArrayUnitTest {
 
         int actualSecondLargestElement = Find2ndLargestInArray.find2ndLargestElement(array);
 
-        Assert.assertEquals(expected2ndLargest, actualSecondLargestElement);
+        Assert.assertNotEquals(expected2ndLargest, actualSecondLargestElement);
     }
 }
